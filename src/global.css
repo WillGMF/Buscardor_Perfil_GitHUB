@@ -6,12 +6,24 @@
 }
 
 .container {
-    max-width: 960px;
+    max-width: 360px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid gray;
+    padding: 10px;
 }
 
-:root {
-    --corPrincipal: #273c75;
-    --corSecundaria: #10161f;
+h3 {
+    margin-top: 15px;
 }
+
+.divAltura {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-left: 3px;
+    padding: 3px;
+}
+
